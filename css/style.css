@@ -1,0 +1,175 @@
+/* html elements  */
+body {
+    background-color: rgba(255, 50, 146, 0.884) !important;
+}
+
+i {
+    color: rgba(253, 0, 0, 0.884);
+}
+
+/* html elements ends */
+
+/* heder section  */
+#header {
+    background-color: rgba(255, 50, 146, 0.884) !important;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.logo {
+    width: 10%;
+}
+
+.heading {
+    font-family: 'Alkatra';
+}
+
+.sub-heading {
+    font-family: 'Fasthand';
+}
+
+.heading,
+.sub-heading {
+    padding: 1%;
+    color: #ffffffcc;
+}
+
+.sub-heading {
+    display: none;
+}
+
+/* Header section ends */
+
+/* Results section */
+
+#result {
+    background-color: #ffffffcc !important;
+    text-align: center;
+    font-size: large;
+    line-height: 2;
+}
+
+#percentage {
+    font-family: 'Fasthand', cursive;
+    font-size: 10rem;
+    padding: 0%;
+    line-height: 2;
+    color: rgba(255, 50, 146, 0.884);
+}
+
+#remarks {
+    font-family: 'Alkatra';
+    font-size: 1.5rem;
+    color: rgba(255, 50, 146, 0.884);
+    /* padding : 2% 1%; */
+}
+
+/* Input section  */
+
+
+#input {
+    text-align: center;
+    padding: 1rem 29rem;
+}
+
+.custom-button {
+    margin-top: 2rem;
+}
+
+/* End of Input section */
+
+/* Disclaimer Section */
+
+#Disclaimer {
+    text-align: center;
+    color: #ffffffcc;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vh;
+    line-height: 2;
+    margin: 7% 15%;
+}
+
+/* media queries */
+
+@media (max-width:375px) {
+    i {
+        padding-bottom: 5%;
+    }
+
+    #header {
+        padding: 20% 2%;
+        font-size: 5rem !important;
+        line-height: 1.5;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    #input {
+        padding: 0 0 0;
+    }
+
+    #percentage {
+        font-family: 'Fasthand', cursive;
+        font-size: 2rem !important;
+        padding: 0%;
+        line-height: 2;
+    }
+
+    #result,
+    .custom-button {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width:1710px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    h1 {
+        overflow-y: hidden;
+        font-size: 4rem;
+        line-height: 1.5;
+    }
+
+    h2 {
+        overflow-y: hidden;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    i {
+        padding-bottom: 5%;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    #header {
+        padding: 1% 2%;
+    }
+
+    #input {
+        padding: 0 0 0;
+    }
+
+    #percentage {
+        font-family: 'Fasthand', cursive;
+        font-size: 8rem !important;
+        padding: 0%;
+        line-height: 2;
+        color: rgba(255, 50, 146, 0.884);
+    }
+
+    #result,
+    .custom-button {
+        margin-bottom: 1.5rem;
+    }
+
+    #remarks {
+        font-size: 1.5rem;
+    }
+}
